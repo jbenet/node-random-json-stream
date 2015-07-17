@@ -18,7 +18,7 @@ Options:
 - `count` - number of objects, 0 means infinity (default: 0)
 - `objects` - whether to output objects or other things (default: false)
 ```js
-var rjs = require('./')
+var rjs = require('random-json-stream')
 var ndjson = require('ndjson')
 
 rjs({ count: 10, objects: true })
