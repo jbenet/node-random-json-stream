@@ -1,0 +1,33 @@
+{
+  "name": "random-json-stream",
+  "version": "1.0.0",
+  "description": "random json stream (+ cli)",
+  "main": "index.js",
+  "bin": {
+    "cli.js": "random-json"
+  },
+  "dependencies": {
+    "ndjson": "^1.4.1",
+    "optimist": "^0.6.1",
+    "slump": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenet/node-random-json-stream.git"
+  },
+  "keywords": [
+    "random",
+    "json",
+    "stream"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/node-random-json-stream/issues"
+  },
+  "homepage": "https://github.com/jbenet/node-random-json-stream"
+}
